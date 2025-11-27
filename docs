@@ -1,0 +1,109 @@
+
+"""
+Title: 📝 AI-Powered Wikipedia & Text Summarizer
+Tagline: Lightweight Generative AI app for summarizing articles and text in seconds.
+
+Description:
+This project is a Generative AI-based text summarization tool built with Streamlit and Hugging Face Transformers. It allows users to:
+
+Paste any custom text and generate a concise AI summary.
+
+Automatically fetch a Wikipedia article on any topic and summarize it instantly.
+
+The app uses the sshleifer/distilbart-cnn-12-6 model — a distilled, lightweight variant of BART (Bidirectional and Auto-Regressive Transformers), fine-tuned for abstractive summarization.
+
+The project demonstrates:
+
+Generative AI via natural language generation (NLG).
+
+Retrieval-Augmented Generation (RAG) by fetching real-time Wikipedia content before summarization.
+
+An easy-to-use web interface powered by Streamlit.
+
+Tech Stack:
+Frontend/UI: Streamlit
+
+Backend/AI Processing: Hugging Face Transformers Pipeline
+
+Model: sshleifer/distilbart-cnn-12-6 (Abstractive Summarization LLM)
+
+External API: Wikipedia Python library
+
+Language: Python 3.x
+
+
+"""
+
+"""
+
+Yes ✅ — your project does count as a GenAI project because:
+
+It uses a pre-trained Transformer-based model (distilbart-cnn-12-6) that performs abstractive summarization, which is a form of natural language generation (NLG) — a key capability of Generative AI.
+
+Even though it’s not a massive general-purpose LLM like GPT-4, it’s still a generative AI model trained on large-scale data to produce new, concise summaries.
+
+The Wikipedia integration + summarization pipeline showcases an AI workflow combining retrieval (fetching content) and generation (creating summaries).
+
+💡 In interviews or GitHub, you can phrase it like:
+
+“This is a lightweight Generative AI-based summarization tool using a distilled BART model fine-tuned for news summarization. It demonstrates retrieval-augmented generation (RAG) on Wikipedia content and AI-powered summarization of arbitrary text.”
+
+"""
+
+
+
+"""
+📝 AI Text Summarizer
+An interactive AI-powered text summarization tool built with Streamlit and Hugging Face Transformers, capable of summarizing any user-provided text or automatically fetching and summarizing Wikipedia articles.
+
+🚀 Features
+Manual Text Summarization – Paste any text, and the app generates a concise summary.
+
+Wikipedia Article Summarization – Enter a topic, fetches the Wikipedia content, and summarizes it instantly.
+
+Fast & Lightweight Model – Uses sshleifer/distilbart-cnn-12-6 for quick processing without heavy hardware requirements.
+
+Clean & Responsive UI – Streamlit-based frontend for an easy, no-friction experience.
+
+Caching for Performance – Model is loaded only once to improve speed.
+
+🛠 Tech Stack
+Frontend:
+
+Streamlit – For creating a fast, interactive web app.
+
+Backend & AI Processing:
+
+Python – Core programming language.
+
+Hugging Face Transformers – For loading the summarization model.
+
+DistilBART (sshleifer/distilbart-cnn-12-6) – A distilled version of BART trained on the CNN/Daily Mail dataset, optimized for summarization.
+
+Wikipedia API (wikipedia library) – To fetch articles directly from Wikipedia.
+
+Model Details:
+
+Type: Pre-trained Transformer model for summarization (not a full general-purpose LLM).
+
+Architecture: Sequence-to-sequence (encoder-decoder).
+
+Training Data: CNN/Daily Mail news dataset.
+
+Capabilities: Extractive & abstractive summarization.
+
+📌 How It Works
+User enters text manually or searches for a Wikipedia topic.
+
+If Wikipedia mode is used, the app fetches the full article text.
+
+The distilbart-cnn-12-6 model processes the text and returns a summary.
+
+The summary is displayed in a clean UI, with a progress spinner for better UX.
+
+
+"""
+
+
+
+
